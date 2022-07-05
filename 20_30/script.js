@@ -48,3 +48,12 @@
 
 // var languages = ['Java', 'PHP', 'JS'];
 // console.log(languages);
+
+
+
+//Bài 25
+function showDialog(){
+
+}
+
+showDialog();
