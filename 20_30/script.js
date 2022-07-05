@@ -51,9 +51,45 @@
 
 
 
-//Bài 25
-function showDialog(){
+//Bài 25, 26, 27, 28, 29: Function
+// function showDialog(message1, mesage2){
+//     if(message1){
+//         console.log(message1);
+//     }
+//     if(mesage2){
+//         console.log(mesage2);
+//     }
+// }
+// //Argument
+// function writeLog(){
+//     var myString = '';
+//     for (var param of arguments){
+//         myString += `${param} - `
+//     }
+//     console.log(myString);
+// // }
+// writeLog("Log 1", "Log 2")
+// function tong(a, b){
+//     return a+b;
+// }
+// console.log(tong(2,4));
+// 2 Function trùng tên Function sau sẽ ghi đè Function trước
+
+// Declaration Function: 
+function showMessage() {
 
 }
+//Express Function
+var showMessage2 = function() {
 
-showDialog();
+}
+setTimeout(function() {
+
+})
+var myObject = {
+    myFuntion(){
+
+    }
+}
+
+// Bài 30: Polyfill
